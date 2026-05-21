@@ -9,16 +9,14 @@ Instead of manually designing the antenna in the HFSS GUI, I have written a comp
 ## How It Works
 
 - The antenna design is **code-driven**, not CAD-driven.
-- **6 geometric parameters** (ground length, ground width, patch length, patch width, and 2 additional parameters) are stored in a parametric array.
-- Change the array values → Run the script → A new antenna design is automatically generated and simulated in HFSS.
+- **6 geometric parameters** are stored in a configuration array in `config.py`:
+  1. Ground Length
+  2. Ground Width  
+  3. Patch Length
+  4. Patch Width
+  5. Feed Length
+  6. Feed Width
+- Change the array values in `config.py` → Run `main.py` → A new antenna design is automatically generated and simulated in HFSS.
 - Total execution time: **~0.5 to 1 minute** per design variant.
-
-## Features
-
-- Fully automated HFSS geometry creation via PyAEDT
-- Parametric design using a 6-element configuration array
-- Rapid prototyping: generate multiple frequency variants instantly
-- Automated simulation setup and execution
-- Results export (S-parameters, radiation patterns, etc.)
 
 ## Project Structure
