@@ -24,7 +24,6 @@ Instead of manually designing the antenna in the HFSS GUI, I have written a comp
 hfss-microstrip-antenna/
 ├── main.py                 # Main entry point — run this file
 
-
 ├── config.py               # 6-parameter array and all design variables
 
 ├── ground.py               # Ground plane geometry
@@ -32,17 +31,29 @@ hfss-microstrip-antenna/
 ├── substrate.py            # FR4 substrate geometry
 
 ├── patch.py                # Radiating patch geometry
+
 ├── feed.py                 # Microstrip feed line geometry
+
 ├── cut.py                  # Slot/notch geometry (subtracted from patch)
+
 ├── port_sheet.py           # Port sheet rectangle
+
 ├── port.py                 # Lumped port assignment
+
 ├── airbox.py               # Air box for radiation boundary
+
 ├── boundary.py             # Radiation boundary assignment
+
 ├── setup_simulation.py     # HFSS analysis setup & frequency sweep
+
 ├── farfield.py             # Far-field radiation setup
+
 ├── reports.py              # S11, VSWR, Smith Chart, Impedance, Gain, Radiation Pattern
+
 ├── fields.py               # E-field, H-field, Current distribution plots
+
 ├── bandwidth.py            # Bandwidth calculation from S11 data
+
 └── README.md               # Project documentation
 
 
