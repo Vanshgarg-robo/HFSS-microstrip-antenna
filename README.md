@@ -86,36 +86,62 @@ x = [60, 60, 29.4, 38, 30, 3]
 
 
 **Prerequisites:**
+
   -Ansys Electronics Desktop (HFSS) installed
+  
   -Python 3.8 or higher
+  
   -PyAEDT library installed
+
 **Usage:**
+
   1.Set up your HFSS/PyAEDT environment.
+  
   2.Update the parameter array x in config.py with your desired dimensions.
+  
   3.Run the main script:
 ```python
 python main.py
 ```
+
   4.The script will automatically:
+  
     -Launch HFSS
+    
     -Build the antenna geometry (ground, substrate, patch, feed, cut)
+    
     -Assign materials and boundaries
+    
     -Create port and simulation setup
+    
     -Run the frequency sweep
+    
     -Generate reports (S11, VSWR, Smith Chart, Gain, Radiation Pattern)
+    
     -Create field plots (E-field, H-field, Current)
+    
     -Calculate and save bandwidth results
 
 
 **Results:**
+  
   -Return Loss (S11) plot
+  
   -Voltage Standing Wave Ratio (VSWR)
+  
   -Smith Chart
+  
   -Impedance plot
+  
   -Gain plot
+  
   -3D Radiation Pattern
+  
   -E-field, H-field, Current distribution plots
+  
   -Bandwidth report (saved as bandwidth_result.txt)
 
+
 **Author:**
+
 Vansh Garg
