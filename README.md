@@ -64,7 +64,8 @@ x = [60, 60, 29.4, 38, 30, 3]
 #     |   |    |    └──────── Patch Width (mm)
 #     |   |    └───────────── Patch Length (mm)
 #     |   └────────────────── Ground Width (mm)
-#     └────────────────────── Ground Length (mm)```
+#     └────────────────────── Ground Length (mm)
+```
 
 
 **Prerequisites:**
@@ -96,3 +97,52 @@ x = [60, 60, 29.4, 38, 30, 3]
   -3D Radiation Pattern
   -E-field, H-field, Current distribution plots
   -Bandwidth report (saved as bandwidth_result.txt)
+
+**Author:**
+Vansh Garg
+
+**License:**
+Private Project — All rights reserved.
+
+
+---
+
+## 📁 .gitignore — Bhi Banani Hai
+
+Same folder mein `.gitignore` file banao:
+
+```gitignore
+# HFSS / Ansys large files
+*.aedt
+*.aedtresults/
+*.asol
+*.mesh
+*.lock
+*.tmp
+*.bak
+*.log
+
+# Simulation outputs
+results/
+output/
+simulation_data/
+*.csv
+*.pdf
+*.png
+*.jpg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+```
