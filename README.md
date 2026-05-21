@@ -55,7 +55,7 @@ The 6 design parameters stored in `config.py`:
 | Feed Width | Microstrip feed line width | mm |
 
 Example configuration:
-
+```python
 # config.py
 x = [60, 60, 29.4, 38, 30, 3]
 #     |   |    |    |   |  |
@@ -64,7 +64,7 @@ x = [60, 60, 29.4, 38, 30, 3]
 #     |   |    |    └──────── Patch Width (mm)
 #     |   |    └───────────── Patch Length (mm)
 #     |   └────────────────── Ground Width (mm)
-#     └────────────────────── Ground Length (mm)
+#     └────────────────────── Ground Length (mm)```
 
 
 **Prerequisites:**
