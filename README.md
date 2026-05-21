@@ -87,59 +87,59 @@ x = [60, 60, 29.4, 38, 30, 3]
 
 **Prerequisites:**
 
-  -Ansys Electronics Desktop (HFSS) installed
+  - Ansys Electronics Desktop (HFSS) installed
   
-  -Python 3.8 or higher
+  - Python 3.8 or higher
   
-  -PyAEDT library installed
+  - PyAEDT library installed
 
 **Usage:**
 
-  1.Set up your HFSS/PyAEDT environment.
+  1. Set up your HFSS/PyAEDT environment.
   
-  2.Update the parameter array x in config.py with your desired dimensions.
+  2. Update the parameter array x in config.py with your desired dimensions.
   
-  3.Run the main script:
+  3. Run the main script:
 ```python
 python main.py
 ```
 
-  4.The script will automatically:
+  4. The script will automatically:
   
-    -Launch HFSS
+    - Launch HFSS
     
-    -Build the antenna geometry (ground, substrate, patch, feed, cut)
+    - Build the antenna geometry (ground, substrate, patch, feed, cut)
     
-    -Assign materials and boundaries
+    - Assign materials and boundaries
     
-    -Create port and simulation setup
+    - Create port and simulation setup
     
-    -Run the frequency sweep
+    - Run the frequency sweep
     
-    -Generate reports (S11, VSWR, Smith Chart, Gain, Radiation Pattern)
+    - Generate reports (S11, VSWR, Smith Chart, Gain, Radiation Pattern)
     
-    -Create field plots (E-field, H-field, Current)
+    - Create field plots (E-field, H-field, Current)
     
-    -Calculate and save bandwidth results
+    - Calculate and save bandwidth results
 
 
 **Results:**
   
-  -Return Loss (S11) plot
+  - Return Loss (S11) plot
   
-  -Voltage Standing Wave Ratio (VSWR)
+  - Voltage Standing Wave Ratio (VSWR)
   
-  -Smith Chart
+  - Smith Chart
   
-  -Impedance plot
+  - Impedance plot
   
-  -Gain plot
+  - Gain plot
   
-  -3D Radiation Pattern
+  - 3D Radiation Pattern
   
-  -E-field, H-field, Current distribution plots
+  - E-field, H-field, Current distribution plots
   
-  -Bandwidth report (saved as bandwidth_result.txt)
+  - Bandwidth report (saved as bandwidth_result.txt)
 
 
 
