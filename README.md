@@ -22,6 +22,7 @@ Instead of manually designing the antenna in the HFSS GUI, I have written a comp
 ## Project Structure
 
 hfss-microstrip-antenna/
+
 ├── main.py                 # Main entry point — run this file
 
 ├── config.py               # 6-parameter array and all design variables
