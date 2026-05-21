@@ -93,8 +93,8 @@ x = [60, 60, 29.4, 38, 30, 3]
   1.Set up your HFSS/PyAEDT environment.
   2.Update the parameter array x in config.py with your desired dimensions.
   3.Run the main script:
-  ```python
-    -python main.py
+```python
+python main.py
 ```
   4.The script will automatically:
     -Launch HFSS
