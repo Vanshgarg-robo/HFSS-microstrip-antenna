@@ -23,9 +23,14 @@ Instead of manually designing the antenna in the HFSS GUI, I have written a comp
 
 hfss-microstrip-antenna/
 ├── main.py                 # Main entry point — run this file
+
+
 ├── config.py               # 6-parameter array and all design variables
+
 ├── ground.py               # Ground plane geometry
+
 ├── substrate.py            # FR4 substrate geometry
+
 ├── patch.py                # Radiating patch geometry
 ├── feed.py                 # Microstrip feed line geometry
 ├── cut.py                  # Slot/notch geometry (subtracted from patch)
